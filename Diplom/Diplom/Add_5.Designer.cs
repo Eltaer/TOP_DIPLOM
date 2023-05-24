@@ -58,36 +58,36 @@
             staff_IDLabel.AutoSize = true;
             staff_IDLabel.Location = new System.Drawing.Point(6, 34);
             staff_IDLabel.Name = "staff_IDLabel";
-            staff_IDLabel.Size = new System.Drawing.Size(71, 24);
+            staff_IDLabel.Size = new System.Drawing.Size(144, 24);
             staff_IDLabel.TabIndex = 16;
-            staff_IDLabel.Text = "Staff ID:";
+            staff_IDLabel.Text = "ID Сотрудника:";
             // 
             // specialistLabel
             // 
             specialistLabel.AutoSize = true;
             specialistLabel.Location = new System.Drawing.Point(6, 69);
             specialistLabel.Name = "specialistLabel";
-            specialistLabel.Size = new System.Drawing.Size(94, 24);
+            specialistLabel.Size = new System.Drawing.Size(123, 24);
             specialistLabel.TabIndex = 18;
-            specialistLabel.Text = "Specialist:";
+            specialistLabel.Text = "Специалист:";
             // 
             // postLabel
             // 
             postLabel.AutoSize = true;
             postLabel.Location = new System.Drawing.Point(6, 104);
             postLabel.Name = "postLabel";
-            postLabel.Size = new System.Drawing.Size(51, 24);
+            postLabel.Size = new System.Drawing.Size(117, 24);
             postLabel.TabIndex = 20;
-            postLabel.Text = "Post:";
+            postLabel.Text = "Должность:";
             // 
             // statusLabel
             // 
             statusLabel.AutoSize = true;
             statusLabel.Location = new System.Drawing.Point(6, 139);
             statusLabel.Name = "statusLabel";
-            statusLabel.Size = new System.Drawing.Size(65, 24);
+            statusLabel.Size = new System.Drawing.Size(77, 24);
             statusLabel.TabIndex = 22;
-            statusLabel.Text = "Status:";
+            statusLabel.Text = "Статус:";
             // 
             // CloseAdd
             // 
@@ -134,7 +134,7 @@
             // staff_IDTextBox
             // 
             this.staff_IDTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.staffBindingSource, "Staff_ID", true));
-            this.staff_IDTextBox.Location = new System.Drawing.Point(106, 31);
+            this.staff_IDTextBox.Location = new System.Drawing.Point(156, 31);
             this.staff_IDTextBox.Name = "staff_IDTextBox";
             this.staff_IDTextBox.Size = new System.Drawing.Size(301, 29);
             this.staff_IDTextBox.TabIndex = 17;
@@ -152,7 +152,7 @@
             // specialistTextBox
             // 
             this.specialistTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.staffBindingSource, "Specialist", true));
-            this.specialistTextBox.Location = new System.Drawing.Point(106, 66);
+            this.specialistTextBox.Location = new System.Drawing.Point(156, 66);
             this.specialistTextBox.Name = "specialistTextBox";
             this.specialistTextBox.Size = new System.Drawing.Size(301, 29);
             this.specialistTextBox.TabIndex = 19;
@@ -160,7 +160,7 @@
             // postTextBox
             // 
             this.postTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.staffBindingSource, "Post", true));
-            this.postTextBox.Location = new System.Drawing.Point(106, 101);
+            this.postTextBox.Location = new System.Drawing.Point(156, 101);
             this.postTextBox.Name = "postTextBox";
             this.postTextBox.Size = new System.Drawing.Size(301, 29);
             this.postTextBox.TabIndex = 21;
@@ -168,7 +168,7 @@
             // statusTextBox
             // 
             this.statusTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.staffBindingSource, "Status", true));
-            this.statusTextBox.Location = new System.Drawing.Point(106, 136);
+            this.statusTextBox.Location = new System.Drawing.Point(156, 136);
             this.statusTextBox.Name = "statusTextBox";
             this.statusTextBox.Size = new System.Drawing.Size(301, 29);
             this.statusTextBox.TabIndex = 23;

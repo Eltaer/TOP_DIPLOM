@@ -72,6 +72,7 @@
             this.Client_Butt = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.Tasks_Butt = new System.Windows.Forms.PictureBox();
+            this.Delete = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.система_для_технической_поддержкиDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.crashBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.crashDataGridView)).BeginInit();
@@ -482,12 +483,24 @@
             this.Tasks_Butt.TabStop = false;
             this.Tasks_Butt.Click += new System.EventHandler(this.Tasks_Butt_Click_1);
             // 
+            // Delete
+            // 
+            this.Delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Delete.Location = new System.Drawing.Point(964, 523);
+            this.Delete.Name = "Delete";
+            this.Delete.Size = new System.Drawing.Size(197, 40);
+            this.Delete.TabIndex = 31;
+            this.Delete.Text = "Удалить";
+            this.Delete.UseVisualStyleBackColor = true;
+            this.Delete.Click += new System.EventHandler(this.Delete_Click);
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(1597, 575);
+            this.Controls.Add(this.Delete);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
@@ -563,5 +576,6 @@
         private System.Windows.Forms.PictureBox Client_Butt;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox Tasks_Butt;
+        public System.Windows.Forms.Button Delete;
     }
 }

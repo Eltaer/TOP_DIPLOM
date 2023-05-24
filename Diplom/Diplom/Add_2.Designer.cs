@@ -82,108 +82,108 @@
             client_IDLabel.AutoSize = true;
             client_IDLabel.Location = new System.Drawing.Point(6, 31);
             client_IDLabel.Name = "client_IDLabel";
-            client_IDLabel.Size = new System.Drawing.Size(84, 24);
+            client_IDLabel.Size = new System.Drawing.Size(112, 24);
             client_IDLabel.TabIndex = 16;
-            client_IDLabel.Text = "Client ID:";
+            client_IDLabel.Text = "ID Клиента:";
             // 
             // f_CNameLabel
             // 
             f_CNameLabel.AutoSize = true;
             f_CNameLabel.Location = new System.Drawing.Point(6, 66);
             f_CNameLabel.Name = "f_CNameLabel";
-            f_CNameLabel.Size = new System.Drawing.Size(96, 24);
+            f_CNameLabel.Size = new System.Drawing.Size(173, 24);
             f_CNameLabel.TabIndex = 18;
-            f_CNameLabel.Text = "F CName:";
+            f_CNameLabel.Text = "Фамилия клиента:";
             // 
             // r_CNameLabel
             // 
             r_CNameLabel.AutoSize = true;
             r_CNameLabel.Location = new System.Drawing.Point(6, 101);
             r_CNameLabel.Name = "r_CNameLabel";
-            r_CNameLabel.Size = new System.Drawing.Size(97, 24);
+            r_CNameLabel.Size = new System.Drawing.Size(128, 24);
             r_CNameLabel.TabIndex = 20;
-            r_CNameLabel.Text = "R CName:";
+            r_CNameLabel.Text = "Имя клиента:";
             // 
             // o_CNameLabel
             // 
             o_CNameLabel.AutoSize = true;
             o_CNameLabel.Location = new System.Drawing.Point(6, 136);
             o_CNameLabel.Name = "o_CNameLabel";
-            o_CNameLabel.Size = new System.Drawing.Size(99, 24);
+            o_CNameLabel.Size = new System.Drawing.Size(180, 24);
             o_CNameLabel.TabIndex = 22;
-            o_CNameLabel.Text = "O CName:";
+            o_CNameLabel.Text = "Отчество клиента:";
             // 
             // telephoneLabel
             // 
             telephoneLabel.AutoSize = true;
             telephoneLabel.Location = new System.Drawing.Point(6, 171);
             telephoneLabel.Name = "telephoneLabel";
-            telephoneLabel.Size = new System.Drawing.Size(108, 24);
+            telephoneLabel.Size = new System.Drawing.Size(95, 24);
             telephoneLabel.TabIndex = 24;
-            telephoneLabel.Text = "Telephone:";
+            telephoneLabel.Text = "Телефон:";
             // 
             // addressLabel
             // 
             addressLabel.AutoSize = true;
             addressLabel.Location = new System.Drawing.Point(6, 206);
             addressLabel.Name = "addressLabel";
-            addressLabel.Size = new System.Drawing.Size(85, 24);
+            addressLabel.Size = new System.Drawing.Size(72, 24);
             addressLabel.TabIndex = 26;
-            addressLabel.Text = "Address:";
+            addressLabel.Text = "Адрес:";
             // 
             // registrarion_DateLabel
             // 
             registrarion_DateLabel.AutoSize = true;
             registrarion_DateLabel.Location = new System.Drawing.Point(6, 242);
             registrarion_DateLabel.Name = "registrarion_DateLabel";
-            registrarion_DateLabel.Size = new System.Drawing.Size(158, 24);
+            registrarion_DateLabel.Size = new System.Drawing.Size(180, 24);
             registrarion_DateLabel.TabIndex = 28;
-            registrarion_DateLabel.Text = "Registrarion Date:";
+            registrarion_DateLabel.Text = "Дата регистрации:";
             // 
             // contract_NumberLabel
             // 
             contract_NumberLabel.AutoSize = true;
             contract_NumberLabel.Location = new System.Drawing.Point(6, 276);
             contract_NumberLabel.Name = "contract_NumberLabel";
-            contract_NumberLabel.Size = new System.Drawing.Size(158, 24);
+            contract_NumberLabel.Size = new System.Drawing.Size(220, 24);
             contract_NumberLabel.TabIndex = 30;
-            contract_NumberLabel.Text = "Contract Number:";
+            contract_NumberLabel.Text = "Номер лицевого счета:";
             // 
             // tariffLabel
             // 
             tariffLabel.AutoSize = true;
             tariffLabel.Location = new System.Drawing.Point(6, 311);
             tariffLabel.Name = "tariffLabel";
-            tariffLabel.Size = new System.Drawing.Size(55, 24);
+            tariffLabel.Size = new System.Drawing.Size(73, 24);
             tariffLabel.TabIndex = 32;
-            tariffLabel.Text = "Tariff:";
+            tariffLabel.Text = "Тариф:";
             // 
             // passport_SeriesLabel
             // 
             passport_SeriesLabel.AutoSize = true;
             passport_SeriesLabel.Location = new System.Drawing.Point(6, 346);
             passport_SeriesLabel.Name = "passport_SeriesLabel";
-            passport_SeriesLabel.Size = new System.Drawing.Size(145, 24);
+            passport_SeriesLabel.Size = new System.Drawing.Size(160, 24);
             passport_SeriesLabel.TabIndex = 34;
-            passport_SeriesLabel.Text = "Passport Series:";
+            passport_SeriesLabel.Text = "Серия паспорта:";
             // 
             // passport_NumberLabel
             // 
             passport_NumberLabel.AutoSize = true;
             passport_NumberLabel.Location = new System.Drawing.Point(6, 381);
             passport_NumberLabel.Name = "passport_NumberLabel";
-            passport_NumberLabel.Size = new System.Drawing.Size(161, 24);
+            passport_NumberLabel.Size = new System.Drawing.Size(163, 24);
             passport_NumberLabel.TabIndex = 36;
-            passport_NumberLabel.Text = "Passport Number:";
+            passport_NumberLabel.Text = "Номер паспорта:";
             // 
             // birthLabel
             // 
             birthLabel.AutoSize = true;
             birthLabel.Location = new System.Drawing.Point(6, 417);
             birthLabel.Name = "birthLabel";
-            birthLabel.Size = new System.Drawing.Size(52, 24);
+            birthLabel.Size = new System.Drawing.Size(155, 24);
             birthLabel.TabIndex = 38;
-            birthLabel.Text = "Birth:";
+            birthLabel.Text = "Дата рождения:";
             // 
             // CloseAdd
             // 
@@ -247,7 +247,7 @@
             // client_IDTextBox
             // 
             this.client_IDTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clientsBindingSource, "Client_ID", true));
-            this.client_IDTextBox.Location = new System.Drawing.Point(173, 28);
+            this.client_IDTextBox.Location = new System.Drawing.Point(232, 31);
             this.client_IDTextBox.Name = "client_IDTextBox";
             this.client_IDTextBox.Size = new System.Drawing.Size(301, 29);
             this.client_IDTextBox.TabIndex = 17;
@@ -265,7 +265,7 @@
             // f_CNameTextBox
             // 
             this.f_CNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clientsBindingSource, "F_CName", true));
-            this.f_CNameTextBox.Location = new System.Drawing.Point(173, 63);
+            this.f_CNameTextBox.Location = new System.Drawing.Point(232, 63);
             this.f_CNameTextBox.Name = "f_CNameTextBox";
             this.f_CNameTextBox.Size = new System.Drawing.Size(301, 29);
             this.f_CNameTextBox.TabIndex = 19;
@@ -273,7 +273,7 @@
             // r_CNameTextBox
             // 
             this.r_CNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clientsBindingSource, "R_CName", true));
-            this.r_CNameTextBox.Location = new System.Drawing.Point(173, 98);
+            this.r_CNameTextBox.Location = new System.Drawing.Point(232, 98);
             this.r_CNameTextBox.Name = "r_CNameTextBox";
             this.r_CNameTextBox.Size = new System.Drawing.Size(301, 29);
             this.r_CNameTextBox.TabIndex = 21;
@@ -281,7 +281,7 @@
             // o_CNameTextBox
             // 
             this.o_CNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clientsBindingSource, "O_CName", true));
-            this.o_CNameTextBox.Location = new System.Drawing.Point(173, 133);
+            this.o_CNameTextBox.Location = new System.Drawing.Point(232, 133);
             this.o_CNameTextBox.Name = "o_CNameTextBox";
             this.o_CNameTextBox.Size = new System.Drawing.Size(301, 29);
             this.o_CNameTextBox.TabIndex = 23;
@@ -289,7 +289,7 @@
             // telephoneTextBox
             // 
             this.telephoneTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clientsBindingSource, "Telephone", true));
-            this.telephoneTextBox.Location = new System.Drawing.Point(173, 168);
+            this.telephoneTextBox.Location = new System.Drawing.Point(232, 168);
             this.telephoneTextBox.Name = "telephoneTextBox";
             this.telephoneTextBox.Size = new System.Drawing.Size(301, 29);
             this.telephoneTextBox.TabIndex = 25;
@@ -297,7 +297,7 @@
             // addressTextBox
             // 
             this.addressTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clientsBindingSource, "Address", true));
-            this.addressTextBox.Location = new System.Drawing.Point(173, 203);
+            this.addressTextBox.Location = new System.Drawing.Point(232, 203);
             this.addressTextBox.Name = "addressTextBox";
             this.addressTextBox.Size = new System.Drawing.Size(301, 29);
             this.addressTextBox.TabIndex = 27;
@@ -305,7 +305,7 @@
             // registrarion_DateDateTimePicker
             // 
             this.registrarion_DateDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.clientsBindingSource, "Registrarion_Date", true));
-            this.registrarion_DateDateTimePicker.Location = new System.Drawing.Point(173, 238);
+            this.registrarion_DateDateTimePicker.Location = new System.Drawing.Point(232, 237);
             this.registrarion_DateDateTimePicker.Name = "registrarion_DateDateTimePicker";
             this.registrarion_DateDateTimePicker.Size = new System.Drawing.Size(301, 29);
             this.registrarion_DateDateTimePicker.TabIndex = 29;
@@ -313,7 +313,7 @@
             // contract_NumberTextBox
             // 
             this.contract_NumberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clientsBindingSource, "Contract_Number", true));
-            this.contract_NumberTextBox.Location = new System.Drawing.Point(173, 273);
+            this.contract_NumberTextBox.Location = new System.Drawing.Point(232, 272);
             this.contract_NumberTextBox.Name = "contract_NumberTextBox";
             this.contract_NumberTextBox.Size = new System.Drawing.Size(301, 29);
             this.contract_NumberTextBox.TabIndex = 31;
@@ -321,7 +321,7 @@
             // tariffTextBox
             // 
             this.tariffTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clientsBindingSource, "Tariff", true));
-            this.tariffTextBox.Location = new System.Drawing.Point(173, 308);
+            this.tariffTextBox.Location = new System.Drawing.Point(232, 308);
             this.tariffTextBox.Name = "tariffTextBox";
             this.tariffTextBox.Size = new System.Drawing.Size(301, 29);
             this.tariffTextBox.TabIndex = 33;
@@ -329,7 +329,7 @@
             // passport_SeriesTextBox
             // 
             this.passport_SeriesTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clientsBindingSource, "Passport_Series", true));
-            this.passport_SeriesTextBox.Location = new System.Drawing.Point(173, 343);
+            this.passport_SeriesTextBox.Location = new System.Drawing.Point(232, 343);
             this.passport_SeriesTextBox.Name = "passport_SeriesTextBox";
             this.passport_SeriesTextBox.Size = new System.Drawing.Size(301, 29);
             this.passport_SeriesTextBox.TabIndex = 35;
@@ -337,7 +337,7 @@
             // passport_NumberTextBox
             // 
             this.passport_NumberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clientsBindingSource, "Passport_Number", true));
-            this.passport_NumberTextBox.Location = new System.Drawing.Point(173, 378);
+            this.passport_NumberTextBox.Location = new System.Drawing.Point(232, 378);
             this.passport_NumberTextBox.Name = "passport_NumberTextBox";
             this.passport_NumberTextBox.Size = new System.Drawing.Size(301, 29);
             this.passport_NumberTextBox.TabIndex = 37;
@@ -345,7 +345,7 @@
             // birthDateTimePicker
             // 
             this.birthDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.clientsBindingSource, "Birth", true));
-            this.birthDateTimePicker.Location = new System.Drawing.Point(173, 413);
+            this.birthDateTimePicker.Location = new System.Drawing.Point(232, 413);
             this.birthDateTimePicker.Name = "birthDateTimePicker";
             this.birthDateTimePicker.Size = new System.Drawing.Size(301, 29);
             this.birthDateTimePicker.TabIndex = 39;

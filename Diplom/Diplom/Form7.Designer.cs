@@ -34,6 +34,8 @@
             this.TextBoxPassword = new System.Windows.Forms.TextBox();
             this.TextBoxLogin = new System.Windows.Forms.TextBox();
             this.Create_Butt = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label3
@@ -95,12 +97,23 @@
             this.Create_Butt.UseVisualStyleBackColor = false;
             this.Create_Butt.Click += new System.EventHandler(this.Create_Butt_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Diplom.Properties.Resources.pngegg;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(70, 71);
+            this.pictureBox1.TabIndex = 29;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(598, 359);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Create_Butt);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -108,7 +121,8 @@
             this.Controls.Add(this.TextBoxLogin);
             this.Controls.Add(this.label3);
             this.Name = "Form7";
-            this.Text = "Form7";
+            this.Text = "Регистрация";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -122,5 +136,6 @@
         private System.Windows.Forms.TextBox TextBoxPassword;
         private System.Windows.Forms.TextBox TextBoxLogin;
         private System.Windows.Forms.Button Create_Butt;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

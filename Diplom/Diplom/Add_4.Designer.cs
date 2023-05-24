@@ -64,54 +64,54 @@
             crash_IDLabel.AutoSize = true;
             crash_IDLabel.Location = new System.Drawing.Point(6, 34);
             crash_IDLabel.Name = "crash_IDLabel";
-            crash_IDLabel.Size = new System.Drawing.Size(86, 24);
+            crash_IDLabel.Size = new System.Drawing.Size(104, 24);
             crash_IDLabel.TabIndex = 16;
-            crash_IDLabel.Text = "Crash ID:";
+            crash_IDLabel.Text = "ID Аварии:";
             // 
             // registrarion_DateLabel
             // 
             registrarion_DateLabel.AutoSize = true;
             registrarion_DateLabel.Location = new System.Drawing.Point(6, 70);
             registrarion_DateLabel.Name = "registrarion_DateLabel";
-            registrarion_DateLabel.Size = new System.Drawing.Size(158, 24);
+            registrarion_DateLabel.Size = new System.Drawing.Size(180, 24);
             registrarion_DateLabel.TabIndex = 18;
-            registrarion_DateLabel.Text = "Registrarion Date:";
+            registrarion_DateLabel.Text = "Дата регистрации:";
             // 
             // addressLabel
             // 
             addressLabel.AutoSize = true;
             addressLabel.Location = new System.Drawing.Point(6, 104);
             addressLabel.Name = "addressLabel";
-            addressLabel.Size = new System.Drawing.Size(85, 24);
+            addressLabel.Size = new System.Drawing.Size(72, 24);
             addressLabel.TabIndex = 20;
-            addressLabel.Text = "Address:";
+            addressLabel.Text = "Адрес:";
             // 
             // causeLabel
             // 
             causeLabel.AutoSize = true;
             causeLabel.Location = new System.Drawing.Point(6, 139);
             causeLabel.Name = "causeLabel";
-            causeLabel.Size = new System.Drawing.Size(69, 24);
+            causeLabel.Size = new System.Drawing.Size(92, 24);
             causeLabel.TabIndex = 22;
-            causeLabel.Text = "Cause:";
+            causeLabel.Text = "Причина:";
             // 
             // specialistLabel
             // 
             specialistLabel.AutoSize = true;
             specialistLabel.Location = new System.Drawing.Point(6, 174);
             specialistLabel.Name = "specialistLabel";
-            specialistLabel.Size = new System.Drawing.Size(94, 24);
+            specialistLabel.Size = new System.Drawing.Size(123, 24);
             specialistLabel.TabIndex = 24;
-            specialistLabel.Text = "Specialist:";
+            specialistLabel.Text = "Специалист:";
             // 
             // priorityLabel
             // 
             priorityLabel.AutoSize = true;
             priorityLabel.Location = new System.Drawing.Point(6, 209);
             priorityLabel.Name = "priorityLabel";
-            priorityLabel.Size = new System.Drawing.Size(71, 24);
+            priorityLabel.Size = new System.Drawing.Size(114, 24);
             priorityLabel.TabIndex = 26;
-            priorityLabel.Text = "Priority:";
+            priorityLabel.Text = "Приоритет:";
             // 
             // CloseAdd
             // 
@@ -162,7 +162,7 @@
             // crash_IDTextBox
             // 
             this.crash_IDTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.crashBindingSource, "Crash_ID", true));
-            this.crash_IDTextBox.Location = new System.Drawing.Point(170, 31);
+            this.crash_IDTextBox.Location = new System.Drawing.Point(192, 31);
             this.crash_IDTextBox.Name = "crash_IDTextBox";
             this.crash_IDTextBox.Size = new System.Drawing.Size(301, 29);
             this.crash_IDTextBox.TabIndex = 17;
@@ -180,7 +180,7 @@
             // registrarion_DateDateTimePicker
             // 
             this.registrarion_DateDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.crashBindingSource, "Registrarion_Date", true));
-            this.registrarion_DateDateTimePicker.Location = new System.Drawing.Point(170, 66);
+            this.registrarion_DateDateTimePicker.Location = new System.Drawing.Point(192, 66);
             this.registrarion_DateDateTimePicker.Name = "registrarion_DateDateTimePicker";
             this.registrarion_DateDateTimePicker.Size = new System.Drawing.Size(301, 29);
             this.registrarion_DateDateTimePicker.TabIndex = 19;
@@ -188,7 +188,7 @@
             // addressTextBox
             // 
             this.addressTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.crashBindingSource, "Address", true));
-            this.addressTextBox.Location = new System.Drawing.Point(170, 101);
+            this.addressTextBox.Location = new System.Drawing.Point(192, 101);
             this.addressTextBox.Name = "addressTextBox";
             this.addressTextBox.Size = new System.Drawing.Size(301, 29);
             this.addressTextBox.TabIndex = 21;
@@ -196,7 +196,7 @@
             // causeTextBox
             // 
             this.causeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.crashBindingSource, "Cause", true));
-            this.causeTextBox.Location = new System.Drawing.Point(170, 136);
+            this.causeTextBox.Location = new System.Drawing.Point(192, 136);
             this.causeTextBox.Name = "causeTextBox";
             this.causeTextBox.Size = new System.Drawing.Size(301, 29);
             this.causeTextBox.TabIndex = 23;
@@ -204,7 +204,7 @@
             // specialistTextBox
             // 
             this.specialistTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.crashBindingSource, "Specialist", true));
-            this.specialistTextBox.Location = new System.Drawing.Point(170, 171);
+            this.specialistTextBox.Location = new System.Drawing.Point(192, 171);
             this.specialistTextBox.Name = "specialistTextBox";
             this.specialistTextBox.Size = new System.Drawing.Size(301, 29);
             this.specialistTextBox.TabIndex = 25;
@@ -212,7 +212,7 @@
             // priorityTextBox
             // 
             this.priorityTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.crashBindingSource, "Priority", true));
-            this.priorityTextBox.Location = new System.Drawing.Point(170, 206);
+            this.priorityTextBox.Location = new System.Drawing.Point(192, 206);
             this.priorityTextBox.Name = "priorityTextBox";
             this.priorityTextBox.Size = new System.Drawing.Size(301, 29);
             this.priorityTextBox.TabIndex = 27;

@@ -30,9 +30,17 @@ namespace Diplom
 
         private void IsSpec()
         {
+
             Client_Butt.Enabled = _user.Is_Spec;
 
             Staff_Butt.Enabled = _user.Is_Spec;
+
+            Add_Butt.Enabled = _user.Is_Spec;
+
+            Save_Butt.Enabled = _user.Is_Spec;
+
+            Delete.Enabled = _user.Is_Spec;
+
         }
 
         private void taskBindingNavigatorSaveItem_Click(object sender, EventArgs e)
@@ -162,5 +170,24 @@ namespace Diplom
             Close();
         }
 
+        private void Delete_Click_1(object sender, EventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("Удалить запись?", "Удаление", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2);
+
+                SqlConnection SqlConnection = new SqlConnection(@"Data Source = DESKTOP-PLUK34H; Initial Catalog = Система для технической поддержки; Integrated Security = True");
+                SqlConnection.Open();
+                var selectedRowIndex = taskDataGridView.CurrentCell.RowIndex;
+
+                var id = Convert.ToInt32(taskDataGridView.Rows[selectedRowIndex].Cells[0].Value);
+                var deleteQuery = $"DELETE FROM Task WHERE Task_ID = {id}";
+
+                var command = new SqlCommand(deleteQuery, SqlConnection);
+                command.ExecuteNonQuery();
+
+                SqlConnection.Close();
+
+                taskDataGridView.Update();
+                taskDataGridView.Refresh();          
+        }
     }
 }

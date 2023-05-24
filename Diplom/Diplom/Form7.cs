@@ -74,5 +74,12 @@ namespace Diplom
                 MessageBox.Show("Аккаунт не создан");
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Form6 frm6 = new Form6();
+            this.Hide();
+            frm6.ShowDialog();
+        }
     }
 }

@@ -82,108 +82,108 @@
             incident_IDLabel.AutoSize = true;
             incident_IDLabel.Location = new System.Drawing.Point(6, 31);
             incident_IDLabel.Name = "incident_IDLabel";
-            incident_IDLabel.Size = new System.Drawing.Size(103, 24);
+            incident_IDLabel.Size = new System.Drawing.Size(137, 24);
             incident_IDLabel.TabIndex = 16;
-            incident_IDLabel.Text = "Incident ID:";
+            incident_IDLabel.Text = "ID Инцидента:";
             // 
             // registration_DateLabel
             // 
             registration_DateLabel.AutoSize = true;
             registration_DateLabel.Location = new System.Drawing.Point(6, 66);
             registration_DateLabel.Name = "registration_DateLabel";
-            registration_DateLabel.Size = new System.Drawing.Size(156, 24);
+            registration_DateLabel.Size = new System.Drawing.Size(180, 24);
             registration_DateLabel.TabIndex = 18;
-            registration_DateLabel.Text = "Registration Date:";
+            registration_DateLabel.Text = "Дата регистрации:";
             // 
             // f_CNameLabel
             // 
             f_CNameLabel.AutoSize = true;
             f_CNameLabel.Location = new System.Drawing.Point(6, 101);
             f_CNameLabel.Name = "f_CNameLabel";
-            f_CNameLabel.Size = new System.Drawing.Size(96, 24);
+            f_CNameLabel.Size = new System.Drawing.Size(173, 24);
             f_CNameLabel.TabIndex = 20;
-            f_CNameLabel.Text = "F CName:";
+            f_CNameLabel.Text = "Фамилия клиента:";
             // 
             // r_CNameLabel
             // 
             r_CNameLabel.AutoSize = true;
             r_CNameLabel.Location = new System.Drawing.Point(6, 136);
             r_CNameLabel.Name = "r_CNameLabel";
-            r_CNameLabel.Size = new System.Drawing.Size(97, 24);
+            r_CNameLabel.Size = new System.Drawing.Size(128, 24);
             r_CNameLabel.TabIndex = 22;
-            r_CNameLabel.Text = "R CName:";
+            r_CNameLabel.Text = "Имя клиента:";
             // 
             // o_CNameLabel
             // 
             o_CNameLabel.AutoSize = true;
             o_CNameLabel.Location = new System.Drawing.Point(6, 171);
             o_CNameLabel.Name = "o_CNameLabel";
-            o_CNameLabel.Size = new System.Drawing.Size(99, 24);
+            o_CNameLabel.Size = new System.Drawing.Size(180, 24);
             o_CNameLabel.TabIndex = 24;
-            o_CNameLabel.Text = "O CName:";
+            o_CNameLabel.Text = "Отчество клиента:";
             // 
             // contract_NumberLabel
             // 
             contract_NumberLabel.AutoSize = true;
             contract_NumberLabel.Location = new System.Drawing.Point(6, 206);
             contract_NumberLabel.Name = "contract_NumberLabel";
-            contract_NumberLabel.Size = new System.Drawing.Size(158, 24);
+            contract_NumberLabel.Size = new System.Drawing.Size(220, 24);
             contract_NumberLabel.TabIndex = 26;
-            contract_NumberLabel.Text = "Contract Number:";
+            contract_NumberLabel.Text = "Номер лицевого счета:";
             // 
             // descriptionLabel
             // 
             descriptionLabel.AutoSize = true;
             descriptionLabel.Location = new System.Drawing.Point(6, 241);
             descriptionLabel.Name = "descriptionLabel";
-            descriptionLabel.Size = new System.Drawing.Size(109, 24);
+            descriptionLabel.Size = new System.Drawing.Size(105, 24);
             descriptionLabel.TabIndex = 28;
-            descriptionLabel.Text = "Description:";
+            descriptionLabel.Text = "Описание:";
             // 
             // evidenceLabel
             // 
             evidenceLabel.AutoSize = true;
             evidenceLabel.Location = new System.Drawing.Point(6, 276);
             evidenceLabel.Name = "evidenceLabel";
-            evidenceLabel.Size = new System.Drawing.Size(95, 24);
+            evidenceLabel.Size = new System.Drawing.Size(101, 24);
             evidenceLabel.TabIndex = 30;
-            evidenceLabel.Text = "Evidence:";
+            evidenceLabel.Text = "Признаки:";
             // 
             // addressLabel
             // 
             addressLabel.AutoSize = true;
             addressLabel.Location = new System.Drawing.Point(6, 311);
             addressLabel.Name = "addressLabel";
-            addressLabel.Size = new System.Drawing.Size(85, 24);
+            addressLabel.Size = new System.Drawing.Size(72, 24);
             addressLabel.TabIndex = 32;
-            addressLabel.Text = "Address:";
+            addressLabel.Text = "Адрес:";
             // 
             // conditionLabel
             // 
             conditionLabel.AutoSize = true;
             conditionLabel.Location = new System.Drawing.Point(6, 346);
             conditionLabel.Name = "conditionLabel";
-            conditionLabel.Size = new System.Drawing.Size(95, 24);
+            conditionLabel.Size = new System.Drawing.Size(113, 24);
             conditionLabel.TabIndex = 34;
-            conditionLabel.Text = "Condition:";
+            conditionLabel.Text = "Состояние:";
             // 
             // specialistLabel
             // 
             specialistLabel.AutoSize = true;
             specialistLabel.Location = new System.Drawing.Point(6, 381);
             specialistLabel.Name = "specialistLabel";
-            specialistLabel.Size = new System.Drawing.Size(94, 24);
+            specialistLabel.Size = new System.Drawing.Size(123, 24);
             specialistLabel.TabIndex = 36;
-            specialistLabel.Text = "Specialist:";
+            specialistLabel.Text = "Специалист:";
             // 
             // client_IDLabel
             // 
             client_IDLabel.AutoSize = true;
             client_IDLabel.Location = new System.Drawing.Point(6, 416);
             client_IDLabel.Name = "client_IDLabel";
-            client_IDLabel.Size = new System.Drawing.Size(84, 24);
+            client_IDLabel.Size = new System.Drawing.Size(112, 24);
             client_IDLabel.TabIndex = 38;
-            client_IDLabel.Text = "Client ID:";
+            client_IDLabel.Text = "ID Клиента:";
             // 
             // CloseAdd
             // 
@@ -247,7 +247,7 @@
             // incident_IDTextBox
             // 
             this.incident_IDTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.incidentBindingSource, "Incident_ID", true));
-            this.incident_IDTextBox.Location = new System.Drawing.Point(170, 28);
+            this.incident_IDTextBox.Location = new System.Drawing.Point(232, 28);
             this.incident_IDTextBox.Name = "incident_IDTextBox";
             this.incident_IDTextBox.Size = new System.Drawing.Size(301, 29);
             this.incident_IDTextBox.TabIndex = 17;
@@ -265,7 +265,7 @@
             // registration_DateTextBox
             // 
             this.registration_DateTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.incidentBindingSource, "Registration_Date", true));
-            this.registration_DateTextBox.Location = new System.Drawing.Point(170, 63);
+            this.registration_DateTextBox.Location = new System.Drawing.Point(232, 63);
             this.registration_DateTextBox.Name = "registration_DateTextBox";
             this.registration_DateTextBox.Size = new System.Drawing.Size(301, 29);
             this.registration_DateTextBox.TabIndex = 19;
@@ -273,7 +273,7 @@
             // f_CNameTextBox
             // 
             this.f_CNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.incidentBindingSource, "F_CName", true));
-            this.f_CNameTextBox.Location = new System.Drawing.Point(170, 98);
+            this.f_CNameTextBox.Location = new System.Drawing.Point(232, 98);
             this.f_CNameTextBox.Name = "f_CNameTextBox";
             this.f_CNameTextBox.Size = new System.Drawing.Size(301, 29);
             this.f_CNameTextBox.TabIndex = 21;
@@ -281,7 +281,7 @@
             // r_CNameTextBox
             // 
             this.r_CNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.incidentBindingSource, "R_CName", true));
-            this.r_CNameTextBox.Location = new System.Drawing.Point(170, 133);
+            this.r_CNameTextBox.Location = new System.Drawing.Point(232, 133);
             this.r_CNameTextBox.Name = "r_CNameTextBox";
             this.r_CNameTextBox.Size = new System.Drawing.Size(301, 29);
             this.r_CNameTextBox.TabIndex = 23;
@@ -289,7 +289,7 @@
             // o_CNameTextBox
             // 
             this.o_CNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.incidentBindingSource, "O_CName", true));
-            this.o_CNameTextBox.Location = new System.Drawing.Point(170, 168);
+            this.o_CNameTextBox.Location = new System.Drawing.Point(232, 168);
             this.o_CNameTextBox.Name = "o_CNameTextBox";
             this.o_CNameTextBox.Size = new System.Drawing.Size(301, 29);
             this.o_CNameTextBox.TabIndex = 25;
@@ -297,7 +297,7 @@
             // contract_NumberTextBox
             // 
             this.contract_NumberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.incidentBindingSource, "Contract_Number", true));
-            this.contract_NumberTextBox.Location = new System.Drawing.Point(170, 203);
+            this.contract_NumberTextBox.Location = new System.Drawing.Point(232, 203);
             this.contract_NumberTextBox.Name = "contract_NumberTextBox";
             this.contract_NumberTextBox.Size = new System.Drawing.Size(301, 29);
             this.contract_NumberTextBox.TabIndex = 27;
@@ -305,7 +305,7 @@
             // descriptionTextBox
             // 
             this.descriptionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.incidentBindingSource, "Description", true));
-            this.descriptionTextBox.Location = new System.Drawing.Point(170, 238);
+            this.descriptionTextBox.Location = new System.Drawing.Point(232, 236);
             this.descriptionTextBox.Name = "descriptionTextBox";
             this.descriptionTextBox.Size = new System.Drawing.Size(301, 29);
             this.descriptionTextBox.TabIndex = 29;
@@ -313,7 +313,7 @@
             // evidenceTextBox
             // 
             this.evidenceTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.incidentBindingSource, "Evidence", true));
-            this.evidenceTextBox.Location = new System.Drawing.Point(170, 273);
+            this.evidenceTextBox.Location = new System.Drawing.Point(232, 273);
             this.evidenceTextBox.Name = "evidenceTextBox";
             this.evidenceTextBox.Size = new System.Drawing.Size(301, 29);
             this.evidenceTextBox.TabIndex = 31;
@@ -321,7 +321,7 @@
             // addressTextBox
             // 
             this.addressTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.incidentBindingSource, "Address", true));
-            this.addressTextBox.Location = new System.Drawing.Point(170, 308);
+            this.addressTextBox.Location = new System.Drawing.Point(232, 308);
             this.addressTextBox.Name = "addressTextBox";
             this.addressTextBox.Size = new System.Drawing.Size(301, 29);
             this.addressTextBox.TabIndex = 33;
@@ -329,7 +329,7 @@
             // conditionTextBox
             // 
             this.conditionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.incidentBindingSource, "Condition", true));
-            this.conditionTextBox.Location = new System.Drawing.Point(170, 343);
+            this.conditionTextBox.Location = new System.Drawing.Point(232, 341);
             this.conditionTextBox.Name = "conditionTextBox";
             this.conditionTextBox.Size = new System.Drawing.Size(301, 29);
             this.conditionTextBox.TabIndex = 35;
@@ -337,7 +337,7 @@
             // specialistTextBox
             // 
             this.specialistTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.incidentBindingSource, "Specialist", true));
-            this.specialistTextBox.Location = new System.Drawing.Point(170, 378);
+            this.specialistTextBox.Location = new System.Drawing.Point(232, 378);
             this.specialistTextBox.Name = "specialistTextBox";
             this.specialistTextBox.Size = new System.Drawing.Size(301, 29);
             this.specialistTextBox.TabIndex = 37;
@@ -345,7 +345,7 @@
             // client_IDTextBox
             // 
             this.client_IDTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.incidentBindingSource, "Client_ID", true));
-            this.client_IDTextBox.Location = new System.Drawing.Point(170, 413);
+            this.client_IDTextBox.Location = new System.Drawing.Point(232, 413);
             this.client_IDTextBox.Name = "client_IDTextBox";
             this.client_IDTextBox.Size = new System.Drawing.Size(301, 29);
             this.client_IDTextBox.TabIndex = 39;

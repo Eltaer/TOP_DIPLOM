@@ -227,5 +227,8 @@
   <ItemGroup>
     <None Include="Resources\pngwing.com %284%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngegg.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

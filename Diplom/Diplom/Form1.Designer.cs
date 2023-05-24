@@ -76,6 +76,7 @@
             this.searchText2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.searchText = new System.Windows.Forms.TextBox();
+            this.Delete = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Staff_Butt)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Crash_Butt)).BeginInit();
@@ -514,12 +515,24 @@
             this.searchText.TabIndex = 0;
             this.searchText.TextChanged += new System.EventHandler(this.searchText_TextChanged);
             // 
+            // Delete
+            // 
+            this.Delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Delete.Location = new System.Drawing.Point(964, 523);
+            this.Delete.Name = "Delete";
+            this.Delete.Size = new System.Drawing.Size(197, 40);
+            this.Delete.TabIndex = 24;
+            this.Delete.Text = "Удалить";
+            this.Delete.UseVisualStyleBackColor = true;
+            this.Delete.Click += new System.EventHandler(this.Delete_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(1597, 575);
+            this.Controls.Add(this.Delete);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.userBox);
@@ -601,6 +614,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox Staff_Butt;
         private System.Windows.Forms.Label label9;
+        public System.Windows.Forms.Button Delete;
     }
 }
 

@@ -73,81 +73,81 @@
             task_IDLabel.AutoSize = true;
             task_IDLabel.Location = new System.Drawing.Point(6, 34);
             task_IDLabel.Name = "task_IDLabel";
-            task_IDLabel.Size = new System.Drawing.Size(77, 24);
+            task_IDLabel.Size = new System.Drawing.Size(103, 24);
             task_IDLabel.TabIndex = 16;
-            task_IDLabel.Text = "Task ID:";
+            task_IDLabel.Text = "ID Задачи:";
             // 
             // registration_DateLabel
             // 
             registration_DateLabel.AutoSize = true;
             registration_DateLabel.Location = new System.Drawing.Point(6, 69);
             registration_DateLabel.Name = "registration_DateLabel";
-            registration_DateLabel.Size = new System.Drawing.Size(156, 24);
+            registration_DateLabel.Size = new System.Drawing.Size(180, 24);
             registration_DateLabel.TabIndex = 18;
-            registration_DateLabel.Text = "Registration Date:";
+            registration_DateLabel.Text = "Дата регистрации:";
             // 
             // f_CNameLabel
             // 
             f_CNameLabel.AutoSize = true;
             f_CNameLabel.Location = new System.Drawing.Point(6, 104);
             f_CNameLabel.Name = "f_CNameLabel";
-            f_CNameLabel.Size = new System.Drawing.Size(96, 24);
+            f_CNameLabel.Size = new System.Drawing.Size(173, 24);
             f_CNameLabel.TabIndex = 20;
-            f_CNameLabel.Text = "F CName:";
+            f_CNameLabel.Text = "Фамилия клиента:";
             // 
             // r_CNameLabel
             // 
             r_CNameLabel.AutoSize = true;
             r_CNameLabel.Location = new System.Drawing.Point(6, 139);
             r_CNameLabel.Name = "r_CNameLabel";
-            r_CNameLabel.Size = new System.Drawing.Size(97, 24);
+            r_CNameLabel.Size = new System.Drawing.Size(128, 24);
             r_CNameLabel.TabIndex = 22;
-            r_CNameLabel.Text = "R CName:";
+            r_CNameLabel.Text = "Имя клиента:";
             // 
             // o_CNameLabel
             // 
             o_CNameLabel.AutoSize = true;
             o_CNameLabel.Location = new System.Drawing.Point(6, 174);
             o_CNameLabel.Name = "o_CNameLabel";
-            o_CNameLabel.Size = new System.Drawing.Size(99, 24);
+            o_CNameLabel.Size = new System.Drawing.Size(180, 24);
             o_CNameLabel.TabIndex = 24;
-            o_CNameLabel.Text = "O CName:";
+            o_CNameLabel.Text = "Отчество клиента:";
             // 
             // descriptionLabel
             // 
             descriptionLabel.AutoSize = true;
             descriptionLabel.Location = new System.Drawing.Point(6, 209);
             descriptionLabel.Name = "descriptionLabel";
-            descriptionLabel.Size = new System.Drawing.Size(109, 24);
+            descriptionLabel.Size = new System.Drawing.Size(105, 24);
             descriptionLabel.TabIndex = 26;
-            descriptionLabel.Text = "Description:";
+            descriptionLabel.Text = "Описание:";
             // 
             // completion_DateLabel
             // 
             completion_DateLabel.AutoSize = true;
             completion_DateLabel.Location = new System.Drawing.Point(6, 245);
             completion_DateLabel.Name = "completion_DateLabel";
-            completion_DateLabel.Size = new System.Drawing.Size(154, 24);
+            completion_DateLabel.Size = new System.Drawing.Size(174, 24);
             completion_DateLabel.TabIndex = 28;
-            completion_DateLabel.Text = "Completion Date:";
+            completion_DateLabel.Text = "Дата выполнения:";
             // 
             // specialistLabel
             // 
             specialistLabel.AutoSize = true;
             specialistLabel.Location = new System.Drawing.Point(6, 279);
             specialistLabel.Name = "specialistLabel";
-            specialistLabel.Size = new System.Drawing.Size(94, 24);
+            specialistLabel.Size = new System.Drawing.Size(123, 24);
             specialistLabel.TabIndex = 30;
-            specialistLabel.Text = "Specialist:";
+            specialistLabel.Text = "Специалист:";
             // 
             // addressLabel
             // 
             addressLabel.AutoSize = true;
             addressLabel.Location = new System.Drawing.Point(6, 314);
             addressLabel.Name = "addressLabel";
-            addressLabel.Size = new System.Drawing.Size(85, 24);
+            addressLabel.Size = new System.Drawing.Size(72, 24);
             addressLabel.TabIndex = 32;
-            addressLabel.Text = "Address:";
+            addressLabel.Text = "Адрес:";
             // 
             // groupBox1
             // 
@@ -183,7 +183,7 @@
             // task_IDTextBox
             // 
             this.task_IDTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.taskBindingSource, "Task_ID", true));
-            this.task_IDTextBox.Location = new System.Drawing.Point(168, 31);
+            this.task_IDTextBox.Location = new System.Drawing.Point(192, 31);
             this.task_IDTextBox.Name = "task_IDTextBox";
             this.task_IDTextBox.Size = new System.Drawing.Size(301, 29);
             this.task_IDTextBox.TabIndex = 17;
@@ -201,7 +201,7 @@
             // registration_DateTextBox
             // 
             this.registration_DateTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.taskBindingSource, "Registration_Date", true));
-            this.registration_DateTextBox.Location = new System.Drawing.Point(168, 66);
+            this.registration_DateTextBox.Location = new System.Drawing.Point(192, 66);
             this.registration_DateTextBox.Name = "registration_DateTextBox";
             this.registration_DateTextBox.Size = new System.Drawing.Size(301, 29);
             this.registration_DateTextBox.TabIndex = 19;
@@ -209,7 +209,7 @@
             // f_CNameTextBox
             // 
             this.f_CNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.taskBindingSource, "F_CName", true));
-            this.f_CNameTextBox.Location = new System.Drawing.Point(168, 101);
+            this.f_CNameTextBox.Location = new System.Drawing.Point(192, 101);
             this.f_CNameTextBox.Name = "f_CNameTextBox";
             this.f_CNameTextBox.Size = new System.Drawing.Size(301, 29);
             this.f_CNameTextBox.TabIndex = 21;
@@ -217,7 +217,7 @@
             // r_CNameTextBox
             // 
             this.r_CNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.taskBindingSource, "R_CName", true));
-            this.r_CNameTextBox.Location = new System.Drawing.Point(168, 136);
+            this.r_CNameTextBox.Location = new System.Drawing.Point(192, 136);
             this.r_CNameTextBox.Name = "r_CNameTextBox";
             this.r_CNameTextBox.Size = new System.Drawing.Size(301, 29);
             this.r_CNameTextBox.TabIndex = 23;
@@ -225,7 +225,7 @@
             // o_CNameTextBox
             // 
             this.o_CNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.taskBindingSource, "O_CName", true));
-            this.o_CNameTextBox.Location = new System.Drawing.Point(168, 171);
+            this.o_CNameTextBox.Location = new System.Drawing.Point(192, 171);
             this.o_CNameTextBox.Name = "o_CNameTextBox";
             this.o_CNameTextBox.Size = new System.Drawing.Size(301, 29);
             this.o_CNameTextBox.TabIndex = 25;
@@ -233,7 +233,7 @@
             // descriptionTextBox
             // 
             this.descriptionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.taskBindingSource, "Description", true));
-            this.descriptionTextBox.Location = new System.Drawing.Point(168, 206);
+            this.descriptionTextBox.Location = new System.Drawing.Point(192, 206);
             this.descriptionTextBox.Name = "descriptionTextBox";
             this.descriptionTextBox.Size = new System.Drawing.Size(301, 29);
             this.descriptionTextBox.TabIndex = 27;
@@ -241,7 +241,7 @@
             // completion_DateDateTimePicker
             // 
             this.completion_DateDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.taskBindingSource, "Completion_Date", true));
-            this.completion_DateDateTimePicker.Location = new System.Drawing.Point(168, 241);
+            this.completion_DateDateTimePicker.Location = new System.Drawing.Point(192, 241);
             this.completion_DateDateTimePicker.Name = "completion_DateDateTimePicker";
             this.completion_DateDateTimePicker.Size = new System.Drawing.Size(301, 29);
             this.completion_DateDateTimePicker.TabIndex = 29;
@@ -249,7 +249,7 @@
             // specialistTextBox
             // 
             this.specialistTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.taskBindingSource, "Specialist", true));
-            this.specialistTextBox.Location = new System.Drawing.Point(168, 276);
+            this.specialistTextBox.Location = new System.Drawing.Point(192, 276);
             this.specialistTextBox.Name = "specialistTextBox";
             this.specialistTextBox.Size = new System.Drawing.Size(301, 29);
             this.specialistTextBox.TabIndex = 31;
@@ -257,7 +257,7 @@
             // addressTextBox
             // 
             this.addressTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.taskBindingSource, "Address", true));
-            this.addressTextBox.Location = new System.Drawing.Point(168, 311);
+            this.addressTextBox.Location = new System.Drawing.Point(192, 311);
             this.addressTextBox.Name = "addressTextBox";
             this.addressTextBox.Size = new System.Drawing.Size(301, 29);
             this.addressTextBox.TabIndex = 33;
